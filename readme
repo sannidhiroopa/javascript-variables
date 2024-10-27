@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Variables in JavaScript</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Variables In JavaScript</h1>
+    <script>
+        function multiply(number) {
+            return number * number * number;
+        }
+
+        var X = 20;
+        var x = 50; // local variable
+        document.write(X + x + "<br>");
+        document.write("Value of x is: " + x + "<br>");
+        document.write("Multiply 5 cubed is: " + multiply(5) + "<br>");
+    </script>
+    <input type="button" value="Click here" onclick="alert(multiply(5))">
+</body>
+</html>
